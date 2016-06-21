@@ -7,6 +7,8 @@ p1 = {
 	'guardian_1' : 'Jim Smith',
 	'guardian_2' : 'Jan Smith',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -17,6 +19,8 @@ p2 = {
 	'guardian_1' : 'Clara Tanner',
 	'guardian_2' : '',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -27,6 +31,8 @@ p3 = {
 	'guardian_1' : 'Sara Bon',
 	'guardian_2' : 'Jenny Bon',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -37,6 +43,8 @@ p4 = {
 	'guardian_1' : 'Wendy Gordon',
 	'guardian_2' : 'Mike Gordon',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -47,6 +55,8 @@ p5 = {
 	'guardian_1' : 'Charles Gill',
 	'guardian_2' : 'Sylvia Gill',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -57,6 +67,8 @@ p6 = {
 	'guardian_1' : 'Bill Stein',
 	'guardian_2' : 'Hillary Stein',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -67,6 +79,8 @@ p7 = {
 	'guardian_1' : 'Jeff Adams',
 	'guardian_2' : '',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -77,6 +91,8 @@ p8 = {
 	'guardian_1' : 'Heather Bledsoe',
 	'guardian_2' : '',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -87,6 +103,8 @@ p9 = {
 	'guardian_1' : 'Henrietta Dumas',
 	'guardian_2' : '',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -97,6 +115,8 @@ p10 = {
 	'guardian_1' : 'Gala Dali',
 	'guardian_2' : '',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -107,6 +127,8 @@ p11 = {
 	'guardian_1' : 'Sam Kavalier',
 	'guardian_2' : 'Elaine Kavalier',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -117,6 +139,8 @@ p12 = {
 	'guardian_1' : 'Aaron Finkelstein',
 	'guardian_2' : 'Jill Finkelstein',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -127,6 +151,8 @@ p13 = {
 	'guardian_1' : 'Robin Soto',
 	'guardian_2' : 'Sarika Soto',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -137,6 +163,8 @@ p14 = {
 	'guardian_1' : 'David Alaska',
 	'guardian_2' : 'Jamie Alaska',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -147,6 +175,8 @@ p15 = {
 	'guardian_1' : 'Claire Willis',
 	'guardian_2' : '',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -157,6 +187,8 @@ p16 = {
 	'guardian_1' : 'Thomas Helm',
 	'guardian_2' : 'Evan Jones',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -167,6 +199,8 @@ p17 = {
 	'guardian_1' : 'Wynonna Brown',
 	'guardian_2' : '',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
@@ -177,6 +211,8 @@ p18 = {
 	'guardian_1' : 'Hyman Krustofski',
 	'guardian_2' : 'Rachel Krustofski',
 	'team' : '',
+	'letter' : '',
+	'practice_time' : '',
 	'assigned' : False
 }
 
