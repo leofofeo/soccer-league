@@ -1,30 +1,22 @@
 
 from random import choice
+from collections import defaultdict
 #import total_players collection from players_collection file
 from players_collection import all_players
 
-# def find_team(player):
-# 	if player['experience'] == True:
-# 		team = [x[0] for x in available_teams if x['full'] == False and x['experienced_members'] < 3]
-#     else:
-#     	team = choice(available_teams)
-#     return team
-
 def find_team(player, available_teams):
-	for team in available_teams:
-		if player['experience'] == True and team['experienced_members'] < 3:
-			return team
-		else:
-			continue
+	return choice(available_teams)
  
 def assign_member(player, teams):
 	team = find_team(player, teams)
+	#import pdb; pdb.set_trace()
 	team['members'].append(player)
+	player['team'] = team['name']
 	if player['experience'] == True:
 		team['experienced_members'] += 1
 	if len(team['members']) == 6:
 		team['full'] = True
-		available_teams.remove(team)
+		teams.remove(team)
 
 sharks = {
 	'name' : 'Sharks',
@@ -53,8 +45,15 @@ raptors = {
 	'full' : False
 }
 
-LEAGUE = sharks, dragons, raptors
-available_teams = sharks, dragons, raptors
+LEAGUE = [sharks, dragons, raptors]
+available_teams = [sharks, dragons, raptors]
 
 for player in all_players:
 	assign_member(player, available_teams)
+
+for team in LEAGUE:
+	print("\nTeam name: {}".format(team['name']))
+	print("Experienced members: {}".format(team['experienced_members']))
+	print("Roster:")
+	for index, player in enumerate(team['members']):
+		print("{}. {}".format(index + 1, player['name']))
